@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600;700;800;900&display=swap');
+
+body {
+	font-family: 'Source Code Pro', monospace;
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	width: 1240px;
+	margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 73px;
+}
+
+.logo {
+	margin: 10px;
+	font-weight: 900;
+	font-style: italic;
+	font-size: 32px;
+}
+
+.menu {
+	width: 560px;
+	display: flex;
+	list-style-type: none;
+	justify-content: space-between;
+}
+.menu-item {
+	font-size: 24px;
+}
+.contact-button{
+	color: white;
+	background: #FCC028;
+	border: 0 solid black;
+	height: 43px;
+	width: 119px;
+}
